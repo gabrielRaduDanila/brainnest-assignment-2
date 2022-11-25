@@ -1,0 +1,25 @@
+a:hover {
+    border: 2px solid white;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px #999;  
+    cursor: pointer; 
+}
+
+a:active{
+    box-shadow: 0 1px #666;
+    transform: translateY(4px);
+}
+
+.text-container{
+    background-color: antiquewhite;
+    border:3px solid #666;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+p{
+    margin: 5px;
+    font-size: 18px;
+    font-family: 'Marhey', cursive;
+    font-weight: 600;
+}

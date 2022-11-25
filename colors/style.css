@@ -1,0 +1,23 @@
+h1{
+    color: brown;
+}
+
+h2{
+    color: #29a668;
+}
+
+h3{
+    color: rgb(77,166,255);
+}
+
+h4{
+    color: hsla(0, 100%, 50%, 1);
+}
+
+.headings{
+    background-color: aquamarine;
+    text-align: center;
+    margin: 60px;
+    padding: 40px ;
+    box-shadow: 10px 10px 8px 2px rgba(0, 0, 0, 0.3);
+}

@@ -1,0 +1,295 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    background-color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-bottom: 30px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 0;
+}
+
+nav > a{
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.nav-buttons{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    gap: 40px;
+}
+
+header a{
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+.main-header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+
+.header-text{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.header-text p, .header-image p{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+h1{
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.header-image{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    background-image: url("./resources/header-image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-image p{
+    background-color: #1f2937;
+}
+
+button{
+    color: white;
+    background-color: #3882f6;
+    border: 1px solid #3882f6;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 600;
+    width: fit-content;
+    padding: 2% 7%;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+button:active{
+    background-color: #1f2937;
+}
+
+h2{
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.main-cards{
+    display: flex;
+    width: 70%;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.card{
+    width: 20%;
+    height: 300px;
+}
+
+.card img{
+    width: 100%;
+    height: 200px;
+    border: 2px solid #3882f6;
+    border-radius: 10px;
+}
+
+.card p{
+    text-align: center;
+}
+
+.quote-section{
+    width: 100%;
+    height: 400px;
+    background-color: #e5e7eb;
+    display: flex;
+    align-items: center;
+    margin: 50px auto;
+}
+
+.quote-text p{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1F2937;
+    margin: 0;
+}
+
+.quote-text{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.quote-section span{
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.sign-up-div{
+    width: 75%;
+    background-color: #3882f6;
+    margin: 70px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 1px solid #3882f6;
+    border-radius: 10px;
+}
+
+.sign-up-text{
+    width: 55%;
+    color: white; 
+    padding: 30px;   
+}
+
+.sign-up-text h3{
+    margin-bottom: 0;
+}
+
+.sign-up-text p{
+    margin-top: 0;
+}
+
+
+.sign-up-button{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sign-up-button button{
+    border: 1px solid white;
+}
+
+footer{
+    width: 100%;
+    height: 70px;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 920px){
+    nav {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .nav-buttons{
+        width: 100%;
+        justify-content: center;
+        gap: 10px;
+        text-align: center;
+    }
+
+    .main-header{
+        flex-direction: column;
+        margin: auto;
+        align-items: center;
+    }
+
+    .header-text{
+        width: 100%;
+    }
+
+    h1{
+        font-size: 24px;
+    }
+
+    .header-text p, .header-image p{
+        font-size: 16px;
+    }
+
+    .header-image{
+        width: 100%;
+        height: 200px;
+        margin: 20px auto;
+    }
+
+    button{
+        font-size: 16px;
+    }
+
+    h2{
+        font-size: 20px;
+    }
+
+    .main-cards{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .card{
+        width: 45%;
+        height: 250px;
+        margin: 20px 0;
+    }
+
+    .card img{
+        height: 180px;
+    }
+
+    .quote-section{
+        width: 100%;
+        height: fit-content;
+    }
+
+    .quote-text{
+        width: 80%;
+        padding: 40px 0;
+    }
+
+    .quote-text p{
+        font-size: 26px;
+    }
+
+    .sign-up-div{
+        width: 90%;
+        margin: 30px auto;
+        flex-direction: column;
+    }
+
+    .sign-up-text{
+        width: 80%;
+        padding: 15px;   
+    }
+
+    .sign-up-button{
+        padding-bottom: 18px;
+    }
+
+    footer{
+        height: 40px;
+        font-size: 14px;
+    }
+    
+}
